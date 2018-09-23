@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.search-suggestion-box {
+  position: absolute;
+  z-index: 990;
+  background-color: #fff;
+  border: 1px solid #eee;
+  top: 13px;
+  padding-top: 25px;
+  left: 10px;
+  right: 40px;
+  border-radius: 0 0px 2px 2px;
+}
+
+.logout{    margin-top: 20px;
+  background-color: #306167;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+  padding: 10px 20px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  cursor: pointer;}
+
+  .videoPlayer{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .socialloign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .auth-fb-btn-block{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    min-height: 44px;
+    margin-bottom: 25px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #295b94;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+  }
+  .facebook-button button{
+    padding: 0;
+  }
+  .facebook-span{
+    background-color: #295b94;
+    padding: 0
+  }
+
+  .auth-gp-btn-block{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    min-height: 44px;
+    margin-bottom: 25px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #d34836;
+    color: #fff;
+    letter-spacing: .5px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
